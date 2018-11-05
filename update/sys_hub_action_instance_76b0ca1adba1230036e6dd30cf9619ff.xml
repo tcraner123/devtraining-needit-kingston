@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Create Legal request NeedIt Task for Charlie Whitherspoon</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fullfillment">65f27996db61230036e6dd30cf961901</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>c6ffb13f-ec71-4a04-9b85-6be3e4d3c965</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:19:06</sys_created_on>
+        <sys_id>76b0ca1adba1230036e6dd30cf9619ff</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_76b0ca1adba1230036e6dd30cf9619ff</sys_update_name>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:36:46</sys_updated_on>
+        <ui_id>6129361e-00ee-474a-a3eb-fd702bd15e2f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76b0ca1adba1230036e6dd30cf9619ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76b0ca1adba1230036e6dd30cf9619ff</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:36:38</sys_created_on>
+        <sys_id>2bb40e1edba1230036e6dd30cf9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:36:38</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76b0ca1adba1230036e6dd30cf9619ff</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:19:06</sys_created_on>
+        <sys_id>83b00e1adba1230036e6dd30cf961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:19:06</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76b0ca1adba1230036e6dd30cf9619ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>76b0ca1adba1230036e6dd30cf9619ff</id>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:19:06</sys_created_on>
+        <sys_id>03b00e1adba1230036e6dd30cf961905</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:19:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>u_needit={{Created_1.current}}^due_date={{Created_1.current.u_when_needed}}^short_description=Complete NeedIt Legal Task^assigned_to={"display":"Charlie Whitherspoon","value":"46b87022a9fe198101a78787e40d7547"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>76b0ca1adba1230036e6dd30cf9619ff</id>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:36:37</sys_created_on>
+        <sys_id>a7b40e1edba1230036e6dd30cf9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:36:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_needit={{Created_1.current}}^due_date={{Created_1.current.u_when_needed}}^short_description=Complete NeedIt Legal Task^assigned_to={"display":"Charlie Whitherspoon","value":"46b87022a9fe198101a78787e40d7547"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>76b0ca1adba1230036e6dd30cf9619ff</id>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:19:06</sys_created_on>
+        <sys_id>4fb00e1adba1230036e6dd30cf961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:19:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>76b0ca1adba1230036e6dd30cf9619ff</id>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 17:36:37</sys_created_on>
+        <sys_id>e3b40e1edba1230036e6dd30cf9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 17:36:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
